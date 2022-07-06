@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+}
+.center{
+    max-width: 1100%;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo h2{
+    color: #16507b;
+    font-size: 22px;
+}
+.menu{
+    width: 80%;
+    text-align: right;
+}
+.menu a{
+    color: #124265;
+   font-size: 14px;
+   text-decoration: none;
+   margin-right: 20px;
+   /*transition: 0.6s;*/
+
+}
+.menu a:hover{
+    background-color: white;
+    color: blue;
+} 
+.menu .btn-menu{
+    background-color: rgb(58, 56, 56);
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius:6px;
+    color: white
+}
+.menu .btn-menu:hover{
+    background-color: #124265;
+    color: white;
+}
+header{
+background-color: white;
+padding: 20px 0;
+border:2px solid #16507b;
+}
+/*
+section main
+*/
+    section.main{
+        background-image: url('img/banner\ site.jpg');
+        padding: 50px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+    }
+    .main_cta{
+        width: 100%;
+        text-align: center;
+        margin: 60px 0;
+    }
+    .main_cta h2{
+        color: #16507b;
+        font-size: 40px;
+    }
+    .main_cta p{
+        color: rgb(58, 56, 56);
+        font-size: 19px;
+        margin: 10px 0;
+    }
+    .main_cta a{
+        background-color: #007bff;
+        display: inline-block;
+        padding: 8px 30px;
+        color: white;
+        border-radius: 6px;
+        font-size: 16px;
+        border:0;
+        cursor: pointer;
+    }
+    .diferenciais{
+        display: flex;
+   
+    }
+    .diferenciail-single{
+        border-radius: 10px;
+        background-color: white;
+        width: 23%;
+        margin-right: 2%;
+        padding: 50px 20px;
+    }
+    .diferencial-single i{
+        color: #124265;
+        font-size: 23px;
+
+    }
+    .diferencial-single h2{
+        color:wheat;
+        margin: 10px 0;
+        font-size: 17px;
+    }
+    .diferencial-single p{
+        color: white;
+        font-size: 16px 10px;
+        line-height: 30px;
+    }
+    section.sobre{
+        padding: 70px 0;
+    }
+    .chamada-sobre{
+        text-align: center;
+        width: 100%;
+    }
+    .chamada-sobre h2{
+        color: rgb(58, 56, 56);
+        text-transform: uppercase;
+    }
+    .chamada-sobre p{
+        font-size: 14px;
+        color: gray;
+        margin: 15px 5;
+        text-align: left;
+        
+    }
+    .conteudo-sobre{
+        display: flex;
+    }
+    .conteudo-sobre p{
+        margin: 0 20px;
+    }
+    @media screen and (max-width: 768px){ 
+        .diferencial-single{
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+    section.conquistas{
+        background-color: white
+        padding: 100%;
+       
+    }
+.conquista-single{
+    width: 22%;
+    margin-right: 3%;
+    text-align: center;
+    color: #124265;
+}
+.conquista-single h2{
+ font-size: 30px;
+}
+.orçamento{
+    background-color: whitesmoke;.
+    font-size: 10px;
+    color: #124265;
+    border-radius: 5px;
+    width: 23%;
+    margin: .center;
+    padding: 15x 30px;
+}
+.creditos a{
+    margin: center;
+    font-size: 9.0px;
+    color: black;
+    padding: 4px;
+
+}
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
